@@ -6,7 +6,7 @@ def print_hello(name):
     print(f"Hello {name}!")
 
 
-@flow(name="Hello Flow")
+@flow(name="Hello Flow", log_prints=True)
 def hello_world(name="world"):
     print_hello(name)
 
